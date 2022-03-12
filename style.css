@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2%;
+}
+#container{
+    width: 806px;
+    height: 806px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    border-style: solid;
+}
+#container div{
+    background-color: lightgray;
+}
+button{
+    padding: 10px;
+}
